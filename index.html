@@ -1,36 +1,9 @@
-<style>
-.cart-container {
-  background: #222;
-  padding: 10px;
-  border-radius: 10px;
-  width: 280px;
-}
-
-/* Заголовок корзины с суммой справа */
-.cart-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Корзина – 2 товара по высоте, потом скролл */
-.cart-items {
-  max-height: 70px; /* высота примерно на 2 строки */
-  overflow-y: auto;
-  margin-top: 10px;
-}
-
-.cart-items div {
-  margin-bottom: 4px;
-  word-wrap: break-word;
-}
-</style>
-
 <div class="cart-container">
   <div class="cart-header">
     <h2>Корзина</h2>
     <span class="cart-total">0 Р</span>
   </div>
-  <button class="cart-clear">Очистить</button>
+  <button class="cart-clear">-</button>
   <div class="cart-items">Корзина пуста</div>
+  <button class="checkout-button">Оплатить</button>
 </div>
