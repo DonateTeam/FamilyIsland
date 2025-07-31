@@ -1,0 +1,25 @@
+<style>
+.cart-container {
+  background: #222;
+  padding: 10px;
+  border-radius: 10px;
+  width: 280px;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-items {
+  max-height: 70px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+.cart-items div {
+  margin-bottom: 4px;
+  word-wrap: break-word;
+}
+</style>
